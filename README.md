@@ -10,7 +10,7 @@ All testing and development is done using Conda Python 3.4. The latest version o
     virtualenv -p python3.5 venv
     source venv/bin/activate
 
-You should have installed:
+You should also have installed:
 
     pip install tensorflow
     pip install pandas
@@ -18,11 +18,8 @@ You should have installed:
     pip install matplotlib
     pip install autopep8
     pip install progressbar2
+
+
+## Running
     
-    
-    
-    ## Running
-    
-    Additional instructions will be posted soon.
-    
-    
+Additional instructions will be posted soon.
