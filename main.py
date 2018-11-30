@@ -66,11 +66,27 @@ for Line in ar_Sequence:
     z[count] = (Line.lower().count('z'))
     count += 1
 alphabet_Sequence = np.vstack((a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z))
-
-
 # Encoding of alphabet arrays
 # a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z = np.array([])
 # A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z = np.array([])
 # alphabet_dfSequence = pd.DataFrame(columns=('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 #                                             'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'))
+
+
+# Define train and test data
+X = np.vstack((alphabet_Sequence, encoded_NTerminal, encoded_CTerminal, encoded_NonTerminal))
+Y = encoded_Structure
+print(X)
+print(" ")
+print(Y)
+
+# Designate Train and Test Data
+x_train = np.vsplit(X, ([10, 20]))[0]
+x_test = np.vsplit(X, ([10, 20]))[1]
+y_train = np.vsplit(Y, ([10, 20]))[0]
+y_test = np.vsplit(Y, ([10, 20]))[1]
+
+
+
+
 
