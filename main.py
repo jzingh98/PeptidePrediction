@@ -25,14 +25,25 @@ encoded_CTerminal = labelEncoder.fit_transform(ar_CTerminal)
 encoded_NonTerminal = labelEncoder.fit_transform(ar_NonTerminal)
 
 # Encoding of peptide sequence
+from string import ascii_lowercase
 encoded_dfSequence = pd.DataFrame()
+alphabet_dfSequence = pd.DataFrame(columns=('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
+                                            'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'))
 encoded_Sequence = np.array([])
 current_Sequence = np.array([])
-for C in ar_Sequence:
+for Line in ar_Sequence:
+    # Save sequence in a dataframe
     current_Sequence = []
-    for c in C:
-        current_Sequence = np.append(current_Sequence, [ord(c)])
+    for Letter in Line:
+        current_Sequence = np.append(current_Sequence, [ord(Letter)])
     encoded_dfSequence = encoded_dfSequence.append(pd.Series(current_Sequence), ignore_index=True)
+    # Increment appropriate alphabet column
+    for c in ascii_lowercase:
+        alphabet_dfSequence[c][len(alphabet_dfSequence[c])] = 0
+    print(Line)
 
+print(alphabet_dfSequence.head())
 
-
+# Encoding of alphabet arrays
+# a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z = np.array([])
+# A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z = np.array([])

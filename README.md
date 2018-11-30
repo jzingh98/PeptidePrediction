@@ -1,6 +1,8 @@
 # PeptidePrediction
 
-A machine learning model to predict the suprastructure of short peptide sequences. Developed for Tan Lab at the University of California, Davis in collaboration with Dr. Cheemeng Tan.
+A machine learning pipeline and model to predict the suprastructure of short peptide sequences. Includes aggregated data from the SAPdb, as well as additional data compiled through an extensive literature search. 
+
+Developed by Tan Labs at the University of California, Davis.
 
 
 ## Setup
