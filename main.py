@@ -1,5 +1,11 @@
 import pandas as pd
 import numpy as np
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation
+from keras.optimizers import SGD
+from keras.callbacks import History
+from keras.callbacks import ModelCheckpoint as mc
 import  string
 from ImportData import update
 import sklearn as sk
@@ -84,9 +90,46 @@ print(Y)
 x_train = np.vsplit(X, ([10, 20]))[0]
 x_test = np.vsplit(X, ([10, 20]))[1]
 y_train = np.vsplit(Y, ([10, 20]))[0]
-y_test = np.vsplit(Y, ([10, 20]))[1]
+y_train_classnames, y_train_indices = np.unique(y_train, return_inverse=True)
+y_train = keras.utils.to_categorical(y_train_indices, num_classes=10)
+y_test = np.vsplit(Y, ([10, 20]))[0]
+y_test_classnames, y_test_indices = np.unique(y_test, return_inverse=True)
+y_test = keras.utils.to_categorical(y_test_indices, num_classes=10)
+
+# Build Model
+model = Sequential()
+dense1 = model.add(Dense(3, activation='sigmoid', input_dim=8))
+model.add(Dense(3, activation='sigmoid'))
+model.add(Dense(10, activation='softmax'))
+
+# Configure Model
+sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+model.compile(loss='categorical_crossentropy',
+              optimizer=sgd,
+              metrics=['accuracy'])
+
+# Run Model
+official_history = History()
+# Format sample data
+x_sample = x_train[0].reshape(1, 8)
+y_sample = y_train[0].reshape(1, 10)
+
+# Build model
+model = Sequential()
+model.add(Dense(3, activation='sigmoid', input_dim=8))
+model.add(Dense(3, activation='sigmoid'))
+model.add(Dense(10, activation='softmax'))
+sgd = SGD(lr=0.01)
+model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+
+# Run model
+fittedModel = model.fit(x_sample, y_sample, validation_data=(x_test, y_test), verbose=1, epochs=1, batch_size=1)
+
+# Print Gradient Descent Weights
+score = model.evaluate(x_test, y_test, batch_size=1)
 
 
 
+print(score)
 
 
