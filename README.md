@@ -1,6 +1,6 @@
 # PeptidePrediction
 
-A machine learning pipeline and model to predict the suprastructure of short peptide sequences. Includes aggregated data from the SAPdb, as well as additional data compiled through an extensive literature search. 
+A machine learning pipeline and model to predict t/he suprastructure of short peptide sequences. Includes aggregated data from the SAPdb, as well as additional data compiled through an extensive literature search. 
 
 Developed by Tan Labs at the University of California, Davis.
 
