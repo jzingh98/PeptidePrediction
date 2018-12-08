@@ -1,21 +1,457 @@
-PEPTIDE SEQUENCE,TYPE OF SELF-ASSEMBLY,N-TERMINAL MODIFICATION,C-TERMINAL MODIFICATION,NON-TERMINAL MODIFICATION
-LLE,Bead like Nanostructure,Acetylation,Free,None
-WII,Branched,Boc,Methoxy,None
-FYK,fibrils,Acetylation,Amidation,None
-ffV,needles,Free,Free,None
-YLD,crystal,Acetylation,Free,None
-fFD,fibres,Free,Free,None
-CHC,Disordered,Fmoc[N-(fluorenyl-9-methoxycarbonyl],Free,None
-FFV,Disordered,Free,Free,None
-ffv,Disordered,Free,Free,None
-Ffv,fibres,Free,Free,None
-EKE,Fibers,Dodecylation,Dodecylation,None
-LFF,Fibril structure,Free,Free,None
-AGG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-AGG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-VAG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-VAG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-GVG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-GVG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-AVG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
-AVG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
+PEPTIDE SEQUENCE,N-TERMINAL MODIFICATION,C-TERMINAL MODIFICATION,STRUCTURE
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FP,Chlorination,N-hexadecylamine,Hydrogel
+PY,Chlorination,N-hexadecylamine,Hydrogel
+WP,Chlorination,N-hexadecylamine,Hydrogel
+PW,Chlorination,N-hexadecylamine,Hydrogel
+WF,Chlorination,N-hexadecylamine,Hydrogel
+FW,Chlorination,N-hexadecylamine,Hydrogel
+AGG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AGG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VAG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VAG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+GVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+GVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+GAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+GAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+AAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VVA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VVA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VAV,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+VVV,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+FAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+FAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+SVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+SVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+SVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+SVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+SVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+FVG,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+QAA,Boc (N-t-Butoxycarbonyl),Benzylation,Hydrogel
+lFF,Free,Free,Hydrogel
+vFF,Free,Free,Hydrogel
+fFV,Free,Free,Hydrogel
+CHC,N-(fluorenyl-9-methoxycarbonyl) or fmoc and acetamidomethyl,Free,Hydrogel
+FWK,Fmoc,Free,Hydrogel
+fDI,Free,Free,Hydrogel
+lFF,Free,Free,Hydrogel
+ECG,Free,Free,Hydrogel
+ECG,Free,Free,Hydrogel
+ECG,Free,Free,Hydrogel
+ECG,Free,Free,Hydrogel
+ECG,Free,Free,Hydrogel
+FFA,Boc (N-t-Butoxycarbonyl),Free,Hydrogel
+XFF,Boc (N-t-Butoxycarbonyl),Free,Hydrogel
+MYD,Acetylation,Free,Hydrogel
+VIE,Acetylation,Free,Hydrogel
+KYF,Free,Free,Hydrogel
+KYY,Free,Free,Hydrogel
+KFF,Free,Free,Hydrogel
+KYW,Free,Free,Hydrogel
+fFV,Free,Free,Hydrogel
+IID,Acetylation,Free,Hydrogel
+IVD,Acetylation,Free,Hydrogel
+IVD,Acetylation,Free,Hydrogel
+IVF,Acetylation,Free,Hydrogel
+IVW,Acetylation,Free,Hydrogel
+RGD,Fmoc(fluorenyl-9-methoxycarbonyl),Free,Hydrogel
+IVD,Acetylation,Free,Hydrogel
+FFK,Napthyl,Olsalazine,Hydrogel
+ffk,Napthyl,Olsalazine,Hydrogel
+FFG,Napthalene,Free,Hydrogel
+FFA,Napthalene,Free,Hydrogel
+FFS,Napthalene,Free,Hydrogel
+FFK,Napthalene,Free,Hydrogel
+FF,Carboxy-BA (Boronic acid),Free,Hydrogel
+FF,Carboxy-BA (Boronic acid),Free,Hydrogel
+AA,Myristic acid,Free,Hydrogel
+AA,Myristic acid,Free,Hydrogel
+FF,2-thiopene,Free,Hydrogel
+FF,2-thiopene,Free,Hydrogel
+FF,Indole acetic acid,Free,Hydrogel
+FF,Indole acetic acid,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+AA,Napthalene,Free,Hydrogel
+AV,Napthalene,Free,Hydrogel
+FG,Napthalene,Free,Hydrogel
+FV,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+AG,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AA,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AV,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+FV,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AA,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+FG,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+aa,MC or merocyanine,Free,Hydrogel
+aa,Spiropyran (SP),Free,Hydrogel
+FG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FP,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+AV,Napthalene,Free,Hydrogel
+LG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+AV,Bromine-napthol,Free,Hydrogel
+FF,CN-napthol,Free,Hydrogel
+FF,7-methoxt-2-napthol,Free,Hydrogel
+LG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+AA,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+DF,Free,Methyl esterification,Hydrogel
+DF,Free,Methyl esterification,Hydrogel
+DF,Free,Methyl esterification,Hydrogel
+DF,Free,Methyl esterification,Hydrogel
+DF,Free,Methyl esterification,Hydrogel
+FG,Free,Free,Hydrogel
+FS,Free,Free,Hydrogel
+FC,Free,Free,Hydrogel
+FE,Free,Free,Hydrogel
+FH,Free,Free,Hydrogel
+FK,Free,Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YN,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YS,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YN,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YS,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YN,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YS,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+AA,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+AG,2-[(6-bromonaphthalen-2-yl)oxy]acetic acid,Free,Hydrogel
+AV,2-[(6-bromonaphthalen-2-yl)oxy]acetic acid,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FG,Free,Free,Hydrogel
+GF,Free,Free,Hydrogel
+GG,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FG,Free,Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FK,Boc (t-butoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Free,Free,Hydrogel
+CF,Hyaluronic acid,Free,Hydrogel
+CF,Hyaluronic acid,Free,Hydrogel
+CF,Carboxymethyl cellulose,Free,Hydrogel
+CF,Carboxymethyl cellulose,Free,Hydrogel
+CF,Hydroxyethyl cellulose,Free,Hydrogel
+CF,Hydroxyethyl cellulose,Free,Hydrogel
+LG,Napthalene,Free,Hydrogel
+LL,Napthalene,Free,Hydrogel
+FG,Napthalene,Free,Hydrogel
+FL,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+AA,Napthalene,Free,Hydrogel
+LG,Napthalene,Free,Hydrogel
+FG,Napthalene,Free,Hydrogel
+FL,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+ff,Napthalene,Free,Hydrogel
+LG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+AA,Anthracene,Free,Hydrogel
+AA,Napthalene,Free,Hydrogel
+FG,Napthalene,Free,Hydrogel
+FV,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+AG,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AA,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AV,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+FG,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+FV,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+FF,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AG,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+AA,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+FG,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+FV,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+FF,Cyano-Napthalene or napthalene derivative,Free,Hydrogel
+AG,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+AG,Bromo-Napthalene or napthalene derivative,Free,Hydrogel
+VD,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FY,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+VL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FF,Free,Free,Hydrogel
+FG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+GG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+GG,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Napthalene-nitrile,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Napthalene,Free,Hydrogel
+FF,Free,Napthalene,Hydrogel
+FF,Free,Napthalene,Hydrogel
+FF,Amino-Napthalene,Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+KK,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YL,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YA,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YA,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+YS,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Hydrogel
+IF,Free,Free,Nanofiber
+VF,Free,Free,Nanofiber
+FYK,Acetylation,Amidation,Nanofiber
+YFK,Acetylation,Amidation,Nanofiber
+FWK,Fmoc,Free,Nanofiber
+DFF,Free,Amidation,Nanofiber
+DFF,Free,Amidation,Nanofiber
+fDI,Free,Free,Nanofiber
+GPG,Boc (N-t-Butoxycarbonyl),Methoxy,Nanofiber
+LFF,Free,Free,Nanofiber
+KFA,N-Cbz lysine (Cbz = benzyloxy-carbonyl) and Boc (N-t-Butoxycarbonyl),Free,Nanofiber
+LVE,Acetylation,Free,Nanofiber
+YYD,Acetylation,Free,Nanofiber
+fFV,Free,Free,Nanofiber
+fFv,Free,Free,Nanofiber
+KKK,Fmoc(fluorenyl-9-methoxycarbonyl),Free,Nanofiber
+EKE,Dodecylation,Dodecylation,Nanofiber
+PK,Free,"1,4,5,8-naphthalenetetracarboxylic acid diimide (NDI)",Nanofiber
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Nanofiber
+FF,Ferrocene,Free,Nanofiber
+FF,Free,Free,Nanofiber
+KK,Acetylation,Amidation and NDI,Nanofiber
+KK,Free,Amidation and NDI,Nanofiber
+KK,Acetylation,Amidation and NDI,Nanofiber
+KL,Ethyl esterification,Free,Nanofiber
+DF,para-Phenylation,Free,Nanofiber
+DF,para-Phenylation,Free,Nanofiber
+DF,para-Phenylation,Free,Nanofiber
+DF,para-Phenylation,Free,Nanofiber
+DF,para-Phenylation,Free,Nanofiber
+DF,para-Phenylation,Free,Nanofiber
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Nanofiber
+WW,Free,Free,Nanofiber
+GA,Free,Free,Nanofiber
+GA,Free,Free,Nanofiber
+GY,Perylene bisimide,Free,Nanofiber
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Nanofiber
+KK,Free,Free,Nanofiber
+FF,Boc (t-butoxycarbonyl),Free,Nanofiber
+LL,Fmoc(fluorenylmethoxycarbonyl),Free,Nanofiber
+FF,Free,Free,Nanofiber
+FF,Free,Free,Nanofiber
+LL,Free,Free,Nanofiber
+LL,Free,Free,Nanofiber
+FF,Free,Free,Nanofiber
+FF,Free,Free,Nanofiber
+IF,Free,Free,Nanofiber
+FF,Free,Free,Nanofiber
+LL,Free,Free,Nanofiber
+FF,Free,Free,Nanotube
+ff,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,HCl,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Fmoc,Free,Nanotube
+FF,Boc,Free,Nanotube
+FFK,Acetylation,Amidation,Nanotube
+KFG,Free,Free,Nanotube
+WII,Boc,Methoxy,Nanotube
+VYK,Acetylation,Free,Nanotube
+RGD,Fmoc(fluorenylmethoxycarbonyl),Free,Nanotube
+PK,Free,"1,4,5,8-naphthalenetetracarboxylic acid diimide (NDI)",Nanotube
+PK,Free,"1,4,5,8-naphthalenetetracarboxylic acid diimide (NDI)",Nanotube
+FF,Ferrocene,Free,Nanotube
+FF,Ferrocene,Free,Nanotube
+KK,Acetylation,Amidation,Nanotube
+KK,Free,Amidation,Nanotube
+FF,Cyano-Napthalene or napthalene derivative,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Boc (t-butoxycarbonyl),Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+ff,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+FW,Free,Free,Nanotube
+FF,Free,Free,Nanotube
+LL,Free,Free,Nanotube
+FF,Boc,Free,Nanosphere
+KFG,Free,Free,Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+PFG,Boc,OMe(Methoxy),Nanosphere
+DFF,Free,Amidation,Nanosphere
+DFY,Free,Amidation,Nanosphere
+LII,Boc,Methoxy,Nanosphere
+LII,Free,Methoxy,Nanosphere
+WII,Boc,Methoxy,Nanosphere
+LFF,Free,Free,Nanosphere
+WWW,Boc (N-t-Butoxycarbonyl),Free,Nanosphere
+WWW,Free,Free,Nanosphere
+WWW,Boc (N-t-Butoxycarbonyl),Free,Nanosphere
+WWW,Free,Free,Nanosphere
+IVD,Acetylation,Free,Nanosphere
+KKK,Free,Free,Nanosphere
+FFF,Free,Free,Nanosphere
+FFF,Free,Free,Nanosphere
+FFF,Free,Free,Nanosphere
+FS,Fmoc(fluorenylmethoxycarbonyl),Tertiary-butyl,Nanosphere
+FF,Boc (t-butoxycarbonyl),Free,Nanosphere
+FF,Boc (t-butoxycarbonyl),Free,Nanosphere
+WW,Free,Free,Nanosphere
+WW,Free,Free,Nanosphere
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Nanosphere
+FF,Boc (t-butoxycarbonyl),Free,Nanosphere
+FF,Boc (t-butoxycarbonyl),Free,Nanosphere
+FF,Free,4-azido,Nanosphere
+FF,4-azido,4-azido,Nanosphere
+VG,Free,Free,Nanosphere
+LG,Free,Free,Nanosphere
+FA,Napthalene,Free,Nanosphere
+GG,meso-methoxyphenylporphyrin,Free,Nanosphere
+GG,meso-methoxyphenylporphyrin,Free,Nanosphere
+FF,Free,Free,Nanosphere
+FF,Free,Free,Nanosphere
+FWK,Fmoc,Free,Nanoribbon
+FWK,Fmoc,Free,Nanoribbon
+KKK,Acetylation,Free,Nanoribbon
+EKE,Dodecylation,Dodecylation,Nanoribbon
+PK,Free,"1,4,5,8-naphthalenetetracarboxylic acid diimide (NDI)",Nanoribbon
+FF,Ferrocene,Free,Nanoribbon
+FF,Ferrocene,Free,Nanoribbon
+FF,Ferrocene,Free,Nanoribbon
+KK,Acetylation,Amidation,Nanoribbon
+KK,Acetylation,Amidation,Nanoribbon
+KK,Acetylation,Amidation and NDI,Nanoribbon
+AA,Free,Free,Nanoribbon
+aA,Free,Free,Nanoribbon
+Aa,Free,Free,Nanoribbon
+aa,Free,Free,Nanoribbon
+AA,Free,Free,Nanoribbon
+Aa,Free,Free,Nanoribbon
+aA,Free,Free,Nanoribbon
+aa,Free,Free,Nanoribbon
+aa,Free,Free,Nanoribbon
+LG,Fmoc(fluorenylmethoxycarbonyl),Free,Nanoribbon
+LG,Fmoc(fluorenylmethoxycarbonyl),Free,Nanoribbon
+FF,Free,Free,Nanoribbon
+FF,Free,Free,Nanoribbon
+FF,Free,Free,Nanoribbon
+FF,Free,Free,Nanoribbon
+FG,Fmoc(fluorenylmethoxycarbonyl),Free,Nanoribbon
+fFD,Free,Free,Organogel
+FF,Conjugate with TTF,Amidation,Organogel
+FF,Conjugate with TTF,Amidation,Organogel
+DF,Free,Methyl esterification,Organogel
+DF,Free,Methyl esterification,Organogel
+DF,Free,Methyl esterification,Organogel
+DF,Free,Methyl esterification,Organogel
+DF,Free,Methyl esterification,Organogel
+DF,Free,Methyl esterification,Organogel
+FF,Free,Free,Organogel
+FF,Free,Free,Organogel
+DF,para-Phenylation,Free,Organogel
+DF,para-Phenylation,Free,Organogel
+DF,para-Phenylation,Free,Organogel
+AF,para-Phenylation,Free,Organogel
+DF,para-Phenylation,Free,Organogel
+DF,para-Phenylation,Free,Organogel
+DF,Mono-Phenylation,Free,Organogel
+DF,para-Phenylation,Free,Organogel
+GY,Perylene bisimide,Free,Organogel
+GD,Perylene bisimide,Free,Organogel
+GD,Perylene bisimide,Free,Organogel
+FF,Free,HCl,Nanovesicle
+KFG,Free,Free,Nanovesicle
+KFA,N-Cbz lysine (Cbz = benzyloxy-carbonyl) and Boc (N-t-Butoxycarbonyl),Free,Nanovesicle
+KFA,N-Cbz lysine (Cbz = benzyloxy-carbonyl) and Boc (N-t-Butoxycarbonyl),Free,Nanovesicle
+FV,Cyano-Napthalene or napthalene derivative,Free,Nanovesicle
+FF,Free,Free,Nanovesicle
+FF,Free,Free,Nanovesicle
+FF,Free,Free,Nanovesicle
+FF,Free,Free,Nanovesicle
+KFA,Free,Free,Nanoparticle
+LLE,Acetylation,Free,Nanoparticle
+KK,Free,Amidation and NDI,Nanoparticle
+FF,Acryloyl,Methyl esterification,Nanoparticle
+FF,Free,Free,Nanoparticle
+CHC,N-(fluorenyl-9-methoxycarbonyl) or fmoc and acetamidomethyl,Free,Nanorod
+ffV,Free,Free,Nanorod
+FFF,Free,Free,Nanorod
+FFF,Free,Free,Nanorod
+FFF,Free,Free,Nanorod
+AV,Free,Free,Nanorod
+AV,Free,Free,Nanorod
+VA,Free,Free,Nanorod
+FF,Fmoc(fluorenylmethoxycarbonyl),Free,Nanorod
+GG,meso-methoxyphenylporphyrin,Free,Nanorod
+KFA,Free,Free,Nanohelical
+KFA,Free,Free,Nanohelical
+FF,Ferrocene,Free,Nanohelical
+FF,Ferrocene,Free,Nanohelical
+FF,Ferrocene,Free,Nanohelical
+FF,Ferrocene,Free,Nanohelical
+FF,Ferrocene,Free,Nanohelical
+FF,Ferrocene,Methoxy,Nanowire
+VA,Free,Free,Nanowire
+FF,Free,Free,Nanowire
+FF,Free,Free,Nanowire
+LL,Free,Free,Nanowire
+KK,Acetylation,Amidation,Nanotape
+LL,Free,Methyaltion,Nanotape
