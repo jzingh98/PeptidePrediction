@@ -1,16 +1,16 @@
 PEPTIDE SEQUENCE,TYPE OF SELF-ASSEMBLY,N-TERMINAL MODIFICATION,C-TERMINAL MODIFICATION,NON-TERMINAL MODIFICATION
 LLE,Bead like Nanostructure,Acetylation,Free,None
-WII,Branched tubular structure and globular Structure,Boc,Methoxy,None
-FYK,Closely packed fibrils,Acetylation,Amidation,None
-ffV,Crystal needles,Free,Free,None
-YLD,crystal structure(um sized ) and Parallel beta sheet structure,Acetylation,Free,None
-fFD,Disorder Short fibres,Free,Free,None
-CHC,Disordered structure,Fmoc[N-(fluorenyl-9-methoxycarbonyl],Free,None
-FFV,Disordered structure,Free,Free,None
-ffv,Disordered structure,Free,Free,None
-Ffv,Elongated fibres,Free,Free,None
-EKE,Fibers (untwisted) like precipitates,Dodecylation,Dodecylation,None
-LFF,Fibril and Globular Nano-structure,Free,Free,None
+WII,Branched,Boc,Methoxy,None
+FYK,fibrils,Acetylation,Amidation,None
+ffV,needles,Free,Free,None
+YLD,crystal,Acetylation,Free,None
+fFD,fibres,Free,Free,None
+CHC,Disordered,Fmoc[N-(fluorenyl-9-methoxycarbonyl],Free,None
+FFV,Disordered,Free,Free,None
+ffv,Disordered,Free,Free,None
+Ffv,fibres,Free,Free,None
+EKE,Fibers,Dodecylation,Dodecylation,None
+LFF,Fibril structure,Free,Free,None
 AGG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
 AGG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
 VAG,Fibril structure & gel formation,Boc (N-t-Butoxycarbonyl),Benzylation,None
